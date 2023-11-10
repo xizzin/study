@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 167: menu statement expects a non-empty block.
-    menu Terminal:
-        ^
+File "game/script.rpy", line 167: end of line expected.
+    with open("save.json", "w", encoding="utf-8") as file:
+                                                  ^
 
 Ren'Py Version: Ren'Py 8.1.3.23091805
-Mon Oct 30 14:46:34 2023
+Thu Nov  9 16:19:02 2023
